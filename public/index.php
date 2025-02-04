@@ -7,4 +7,3 @@
 ?>
 
 
-<h1>Welcom to mvc</h1>

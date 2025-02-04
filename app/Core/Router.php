@@ -2,7 +2,7 @@
 
 namespace App\Core;
 
-class App 
+class Router 
 {
     protected $controller = "HomeController";
     protected $action = "index";

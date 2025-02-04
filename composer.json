@@ -2,7 +2,7 @@
     "name": "youcode/abdo-esse-mvc-php-postgresql",
     "autoload": {
         "psr-4": {
-            "Youcode\\AbdoEsseMvcPhpPostgresql\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [

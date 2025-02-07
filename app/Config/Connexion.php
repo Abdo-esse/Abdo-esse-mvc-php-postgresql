@@ -20,10 +20,10 @@ class Connexion
                 $dotenv->load();
 
                 
-                $host = $_ENV['DATABASE_HOSTNAME'] ?? 'localhost';
-                $db = $_ENV['DATABASE_NAME'] ?? 'test';
-                $username = $_ENV['DATABASE_USERNAME'] ?? 'postgres';
-                $password = $_ENV['DATABASE_PASSWORD'] ?? 'root';
+                $host = $_ENV['DATABASE_HOSTNAME'] ;
+                $db = $_ENV['DATABASE_NAME'];
+                $username = $_ENV['DATABASE_USERNAME'] ;
+                $password = $_ENV['DATABASE_PASSWORD'] ;
 
                 
                 self::$conn = new PDO("pgsql:host=$host;dbname=$db", $username, $password);
